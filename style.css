@@ -1,0 +1,259 @@
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  background:black;
+  color: white;
+  background-image: url(https://cdn.pixabay.com/photo/2022/06/03/23/33/cat-7240997_960_720.jpg);
+background-size: cover;
+background-attachment: fixed;
+background-repeat: no-repeat;
+
+} 
+header{
+  display:flex;
+  justify-content:center;
+  background: black;
+  box-shadow: 0 4px 10px rgba(104, 19, 161, .7);
+ 
+}
+.Logo, .Top_menu{
+   display:inline-block;
+   vertical-align:middle;
+   margin-right:20px;
+}
+.Top_menu li{
+display:inline-block;
+opacity:1;
+margin-right:20px;
+
+}
+.Top_menu a {
+  font-family:georgia,serif;
+  font-size: 17px;
+  color:white;
+  text-decoration:blink;
+  transition:  .7s ease-in-out;
+  
+}
+}
+.Logo{
+  font-family:georgia,serif;
+  font-size: 16px;
+  color:white;
+}
+.Top_menu li a:hover {
+opacity:1.5;
+color:rgba(103,82,156,1.5);
+}
+
+.text_1 {
+
+  border-radius:25px;
+  padding: 35px 15px;
+  max-width: 100%;
+  max-height: 100%;
+  background: rgba(0,0,0,0,3);
+  backdrop-filter: blur(16px);
+  margin-top:15vh;
+  margin-left:35vh;
+  margin-right:35vh;
+
+}
+.text_1 h1{
+  font-family: arial;
+  font-weight: normal;
+  font-size: 25px;
+  color:#302121;
+
+}
+div{
+  position:relative;
+}
+h2{
+  position: absolute;
+  top:20px;
+  font-size: 40px;
+  padding: 20px;
+  
+}
+.history_title {
+  font-family:georgia,serif;
+  font-size: 30px;
+  color:  #a7d4f2;
+  text-align: center;
+  padding:20px;
+}
+.history{
+  border-radius:25px;
+  padding: 35px 15px;
+  max-width: 100%;
+  max-height: 100%;
+  background: rgba(0,0,0,0,3);
+  backdrop-filter: drop-shadow(16px 16px 20px red) invert(75%);
+  margin-top:15vh;
+  margin-left:34.5vh;
+  margin-right:34.5vh;
+  margin-bottom:15vh;
+
+}
+.history_titles {
+  font-family:georgia,serif;
+  font-size: 40px;
+  text-align: center;
+  padding:20px;
+  color:  #a7d4f2;
+ 
+}
+.history_text{
+  font-family:georgia,serif;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  padding:20px;
+}
+.history_text_w{
+  font-family:georgia,serif;
+  font-size: 30px;
+  color:#a7d4f2 ;
+  text-align: center;
+  padding:20px;
+}
+
+.blocks{
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 20px;
+  max-width: 100%;
+  max-height: 100%;
+  padding: 10px;
+  border: 2px black solid;
+  border-radius: 10px;
+  margin:40px;
+  column-count: 3;
+  column-rule: 1.5px solid;
+  background: url(https://cdn.pixabay.com/photo/2017/03/28/22/55/night-photograph-2183637_960_720.jpg); 
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  letter-spacing: 1.5px;
+}
+.galery_text{
+  font-family: Arial, Helvetica, sans-serif;
+  color:#302121;
+  font-size: 24px;
+  text-align: center;
+  padding: 15px;
+}
+.all_photos{
+  vertical-align: center;
+}
+  
+.photo_1 img{
+  border-radius: 50%;
+  width: 350px;
+  height: 350px;
+  padding:30px;
+  display:inline-block;
+  
+}
+.photo_1{
+  display:inline-block;
+}
+.photo_2 img{
+  border-radius: 50%;
+  width: 350px;
+  height: 350px;
+  padding:30px;
+  display:inline-block;
+}
+.photo_2{
+  display:inline-block;}
+.photo_3 img{
+  border-radius: 50%;
+  width: 350px;
+  height: 350px;
+  padding:30px;
+  
+}
+.photo_3{
+  display:inline-block;}
+.photo_4 img{
+  border-radius: 50%;
+  width: 350px;
+  height: 350px;
+  padding:30px;
+  
+}
+.photo_4{
+  display:inline-block;}
+.photo_5 img{
+  border-radius: 50%;
+  width: 350px;
+  height: 350px;
+  padding:30px;
+  
+}
+.photo_5{
+  display:inline-block;}
+.contact{
+  font-family: Arial, Helvetica, sans-serif;
+  color:#302121;
+  font-size: 24px;
+  text-align: center;
+  padding: 15px;}
+.list{
+  font-family: Arial, Helvetica, sans-serif;
+  color:#a8a8a8;
+  font-size: 55px;
+  padding-left:75px;
+  text-shadow: -0   -4px 2px #5E5B5B,
+		 0   -4px 2px #5E5B5B,
+		-0    4px 2px #5E5B5B,
+		 0    4px 2px #5E5B5B,
+		-4px -0   2px #5E5B5B,
+		 4px -0   2px #5E5B5B,
+		-4px  0   2px #5E5B5B,
+		 4px  0   2px #5E5B5B,
+		-1px -4px 2px #5E5B5B,
+		 1px -4px 2px #5E5B5B,
+		-1px  4px 2px #5E5B5B,
+		 1px  4px 2px #5E5B5B,
+		-4px -1px 2px #5E5B5B,
+		 4px -1px 2px #5E5B5B,
+		-4px  1px 2px #5E5B5B,
+		 4px  1px 2px #5E5B5B,
+		-2px -4px 2px #5E5B5B,
+		 2px -4px 2px #5E5B5B,
+		-2px  4px 2px #5E5B5B,
+		 2px  4px 2px #5E5B5B,
+		-4px -2px 2px #5E5B5B,
+		 4px -2px 2px #5E5B5B,
+		-4px  2px 2px #5E5B5B,
+		 4px  2px 2px #5E5B5B,
+		-3px -4px 2px #5E5B5B,
+		 3px -4px 2px #5E5B5B,
+		-3px  4px 2px #5E5B5B,
+		 3px  4px 2px #5E5B5B,
+		-4px -3px 2px #5E5B5B,
+		 4px -3px 2px #5E5B5B,
+		-4px  3px 2px #5E5B5B,
+		 4px  3px 2px #5E5B5B,
+		-4px -4px 2px #5E5B5B,
+		 4px -4px 2px #5E5B5B,
+		-4px  4px 2px #5E5B5B,
+		 4px  4px 2px #5E5B5B,
+		-4px -4px 2px #5E5B5B,
+		 4px -4px 2px #5E5B5B,
+		-4px  4px 2px #5E5B5B,
+		 4px  4px 2px #5E5B5B;
+letter-spacing: 2.5px;
+line-height: 100px;}
+.address{
+  font-family: Arial, Helvetica, sans-serif;
+  color:#302121;
+  font-size: 34px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 40px;
+  text-shadow: 2px 2px 10px rgba(255,255,255, 0.9);
+}
