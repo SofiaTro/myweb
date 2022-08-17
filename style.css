@@ -134,6 +134,7 @@ h2{
   column-count: 3;
   column-rule: 1.5px solid;
   background: url(https://cdn.pixabay.com/photo/2017/03/28/22/55/night-photograph-2183637_960_720.jpg); 
+  background-repeat: no-repeat;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
   letter-spacing: 1.5px;
 }
